@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ansis-kengis-apps.iml" filepath="$PROJECT_DIR$/.idea/modules/ansis-kengis-apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/banking.iml" filepath="$PROJECT_DIR$/.idea/modules/banking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/banking-app/banking-app.iml" filepath="$PROJECT_DIR$/.idea/modules/banking-app/banking-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/banking-product/banking-product.iml" filepath="$PROJECT_DIR$/.idea/modules/banking-product/banking-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/banking-web/banking-web.iml" filepath="$PROJECT_DIR$/.idea/modules/banking-web/banking-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/banking-web-api/banking-web-api.iml" filepath="$PROJECT_DIR$/.idea/modules/banking-web-api/banking-web-api.iml" />
+    </modules>
+  </component>
+</project>

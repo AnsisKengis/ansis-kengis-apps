@@ -1,0 +1,6 @@
+rootProject.name = 'banking'
+
+include 'banking-app'
+include 'banking-web'
+include 'banking-web-api'
+include 'banking-product'
