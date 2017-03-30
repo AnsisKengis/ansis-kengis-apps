@@ -1,13 +1,18 @@
 import uiRouter from "angular-ui-router/release/angular-ui-router";
 import app from "./app.component.js";
 import components from "./components/components.module";
+import services from "./services/services.module";
+import uiMask from "angular-ui-mask";
+
 
 
 
 angular
     .module('app', [
         uiRouter,
-        components.name
+        uiMask,
+        components.name,
+        services.name,
     ])
     .component('app', app)
     .config(($stateProvider, $urlRouterProvider, $locationProvider) => {
