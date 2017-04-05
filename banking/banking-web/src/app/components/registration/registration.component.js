@@ -2,8 +2,9 @@ import "./registration.style.scss";
 import template from "./registration.component.html";
 
 class RegistrationController {
-    constructor(clientService) {
+    constructor(clientService, $state) {
         this.clientService = clientService;
+        this.$state = $state;
     }
 
     $onInit() {
@@ -18,7 +19,7 @@ class RegistrationController {
 
     signUp() {
         this.clientService.signup(this.model).then(() => {
-            this.refresh();
+            this.$state.go("app.profile");
         })
     }
 }
