@@ -5,8 +5,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import java.nio.file.AccessDeniedException;
-import java.time.Duration;
-
 
 
 import static java.time.Instant.now;
@@ -16,8 +14,6 @@ import static java.time.Instant.now;
 @Component
 public class LoginService {
 
-//    public static final Duration DEFAULT_TOKEN_VALID_DURATION = Duration.ofHours(24);
-//
 //    @Autowired
 //    private WebJwtTokenService jwtTokenService;
 //

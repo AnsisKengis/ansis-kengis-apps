@@ -15,10 +15,12 @@ class RegistrationController {
     }
 
     refresh() {
+
     }
 
     signUp() {
-        this.clientService.signup(this.model).then(() => {
+        this.clientService.signup(this.model).then((data) => {
+            this.model = data;
             this.$state.go("app.profile");
         })
     }

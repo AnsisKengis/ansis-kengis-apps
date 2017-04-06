@@ -29,7 +29,7 @@ dependencies {
     compile("org.apache.tomcat.embed:tomcat-embed-el")
     testCompile('org.springframework.boot:spring-boot-starter-test')
 
-    compile project(":banking-web-api")
-    compile project(":banking-product")
+    compile project(':banking-web-api')
+    compile project(':banking-product')
 }
 

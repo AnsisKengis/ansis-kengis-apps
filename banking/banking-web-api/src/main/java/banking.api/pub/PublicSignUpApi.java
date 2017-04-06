@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 import javax.validation.ValidationException;
 import java.io.IOException;
@@ -27,13 +29,10 @@ public class PublicSignUpApi {
     @RequestMapping(path = "/api/public/web/signup", method = RequestMethod.POST)
     public PublicLoginApi.LoginResponse signUp(@Valid @RequestBody SignUpForm form) {
 
-        System.out.println("Registering as client {}" + form.getEmail());
-//
-//        try {
-//            registrationService.signUp(form);
-//        } catch (IOException e) {
-//            return null;
-//        }
+        System.out.println("Registering as client: " + form.getEmail());
+
+            registrationService.signUp(form);
+
 //            String token = loginService.login(form.getEmail(), form.getPassword());
 //            return new PublicLoginApi.LoginResponse(token);
         return null;

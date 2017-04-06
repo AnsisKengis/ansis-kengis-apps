@@ -24,10 +24,6 @@ public class PublicLoginApi {
     @Autowired
     private LoginService loginService;
 
-    public PublicLoginApi() {
-        log.debug("hello1");
-    }
-
     @RequestMapping(path = "/api/public/web/login", method = RequestMethod.POST)
     public LoginResponse login(@Valid @RequestBody LoginRequest login) {
 
@@ -36,10 +32,6 @@ public class PublicLoginApi {
         return null;
     }
 
-    @RequestMapping(path = "/api/hello", method = RequestMethod.GET)
-    public String hello() {
-        return "Hello";
-    }
 
     @Data
     @ToString(exclude = "password")

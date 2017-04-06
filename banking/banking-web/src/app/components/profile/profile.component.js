@@ -5,6 +5,8 @@ class ProfileController {
     constructor(clientService) {
 
     }
+
+
 }
 
 export default {

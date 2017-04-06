@@ -29,6 +29,7 @@ dependencies {
     compile("org.apache.tomcat.embed:tomcat-embed-el")
     testCompile('org.springframework.boot:spring-boot-starter-test')
 
-    compile project(":banking-product")
+    compile project(':banking-product')
+        compile ("com.google.guava:guava:16+")
 }
 

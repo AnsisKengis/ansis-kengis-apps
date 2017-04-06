@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  height: auto; width: 100%;
+
+}
+#header {
+  text-align: center;
+}
+.footer {
+  text-align: center;
+}
+.header-links {
+  display: inline-block;
+  float: right;
+  margin-top: 15px;
+  margin-right: 40px;
+}
+.img-rounded {
+  margin-right: 50px;
+}
+#header img {
+  margin-left: 0px;
+}
+#logo {
+  margin-left: 0px;
+}
+
+ul .nav.navbar-nav.navbar-right{
+  padding: 0px;
+  margin-right: 200px;
+
+}
+ul li {
+  height: 40px;
+  width: 140px;
+  text-align: center;
+  line-height: 40px;
+  list-style: none;
+  font-size: 17px;
+  font-style: inherit;
+  opacity: .8;
+  text-shadow: 1px 1px 1px #999999;
+  -webkit-border-radius: 5px;
+  margin-right: 10px;
+}
+.navbar-default .navbar-nav li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+.navbar-default .navbar-nav li a:hover {
+  color: red;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+}
+.navbar {
+  background-color: whitesmoke;
+  margin-bottom: 0px;
+}
+.navbar.navbar-default {
+  margin-bottom: 0px;
+}
+#tekst {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  padding-top:  300px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+a .navbar-brand {
+  color: white;
+}
+/*#logo_bar {*/
+/*padding-left: 350px;*/
+/*}*/
+#size {
+  width: 100%;
+  height: auto;
+}#size1 {
+   width: 100%;
+   height: auto;
+ }
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar-header {
+  padding-left: 20px;
+}
+#logo {
+  width: 150px;
+  vertical-align: middle;
+}
+.collapse.navbar-collapse.nav.navbar-nav.navbar-right{
+  width: auto;
+  text-align: center;
+
+}
+#button {
+  margin-right: 30px;
+}
+#third {
+  margin-bottom: 400px;
+}
+.banner {
+  background-image:url(../profile/images/banner.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 1000px;
+}
+h1 {
+  text-align: center;
+}
+
+.modal-title{
+  color: white;
+}
+.panel-title {
+  color: white;
+}
+.title1 {
+  font-size: 60px;
+  color: white;
+}
+.title2 {
+  color: white;
+}
+.intro-content {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+}
+#main-navbar {
+  text-align: center;
+}
+.img-responsive {
+  margin-left: 100px;
+}
+.intro-content {
+  padding-top: 280px;
+}
+#second_section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#third_section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#third_section_image {
+  background-image:url(../profile/images/silver-background-1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 700px;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #737373;
+}
+.heading {
+  font-size: 60px;
+}
+.heading1{
+  font-size: 60px;
+  margin: 0 0;
+}
+.text-center {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.client_logo {
+  min-height: 292.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.client_logo_image {
+  text-align: center;
+}
+.client_logo_size {
+  width: 270px;
+  height: 170px;
+}
+.intro_headers {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  color: whitesmoke;
+  text-shadow: 1px 1px 1px #ac2925;
+}
+.intro_headers1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: whitesmoke;
+  text-shadow: 1px 1px 1px #ac2925;
+}
+.line {
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  content: ' ';
+  width: 0;
+  height: 1px;
+  background-color: #ac2925;
+}
+.footer {
+  background-image:url(../profile/images/footer_background.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+
+#social-fb:hover {
+  color: #3B5998;
+}
+#social-tw:hover {
+  color: #4099FF;
+}
+#social-gp:hover {
+  color: #d34836;
+}
+#social-em:hover {
+  color: #f39c12;
+}
+.fa-3x {
+  margin-left: 5px;
+  margin-right: 5px;
+}
