@@ -24,7 +24,7 @@ class ClientServiceBean implements ClientService {
         ClientEntity client = new ClientEntity();
         String clientNumber = command.getClientNumber();
         client.setNumber(clientNumber);
-        System.out.println("Client ID: " + client.getNumber());
+        System.out.println("Client number: " + client.getNumber());
 
         return null;
     }
