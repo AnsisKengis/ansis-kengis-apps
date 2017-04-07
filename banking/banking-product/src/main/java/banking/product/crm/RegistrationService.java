@@ -10,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Random;
+
 
 @Slf4j
 @Component
@@ -21,14 +23,11 @@ public class RegistrationService {
 
 
      public Long signUp(SignUpForm form) {
-        final Long clientId = clientService.registerClient(new RegisterClientCommand());
+        final Long clientId = clientService.registerClient(new RegisterClientCommand(ClientNumberUtils.generateClientNumber()));
 
         AddEmailContactCommand emailCommand = new AddEmailContactCommand();
         emailCommand.setClientId(clientId);
         emailCommand.setEmail(form.getEmail());
-
-         System.out.println(emailCommand.getEmail());
-         System.out.println(clientId);
 
         return clientId;
      }
