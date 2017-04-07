@@ -1,16 +1,11 @@
 package banking.product.crm;
 
-import banking.product.client.AddEmailContactCommand;
-import banking.product.client.ClientModel;
-import banking.product.client.ClientService;
-import banking.product.client.RegisterClientCommand;
+import banking.product.client.*;
 import banking.product.crm.forms.SignUpForm;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.Random;
 
 
 @Slf4j
@@ -23,7 +18,7 @@ public class RegistrationService {
 
 
      public Long signUp(SignUpForm form) {
-        final Long clientId = clientService.registerClient(new RegisterClientCommand(ClientNumberUtils.generateClientNumber()));
+        final Long clientId = clientService.registerClient(new RegisterClientCommand(ClientNumberUtils.generateClientNumber(), TimeMachine.today()));
 
         AddEmailContactCommand emailCommand = new AddEmailContactCommand();
         emailCommand.setClientId(clientId);
